@@ -41,34 +41,24 @@ const FaqSection = (props) => {
 FaqSection.defaultProps = {
   posts: [
     {
-      question: "Lorem ipsum dolor sit amet consectetur?",
+      question: "What is Frontend Mentor, and how will it help me?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae ad rem aliquam? Consectetur cum esse a delectus iusto ipsam!",
+        "Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.",
     },
     {
-      question: "Lorem ipsum dolor sit amet.?",
+      question: "Is Frontend Mentor free?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae ad rem aliquam? Consectetur cum esse a delectus iusto ipsam!",
+        "Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.",
     },
     {
-      question: "Lorem ipsum dolor sit amet consectetur adipisicing.?",
+      question: "Can I use Frontend Mentor projects in my portfolio?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae ad rem aliquam? Consectetur cum esse a delectus iusto ipsam!",
+        "Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!",
     },
     {
-      question: "Lorem ipsum dolor sit amet consectetur adipisicing.?",
+      question: "How can I get help if I'm stuck on a Frontend Mentor challenge?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae ad rem aliquam? Consectetur cum esse a delectus iusto ipsam!",
-    },
-    {
-      question: "Lorem ipsum dolor sit amet consectetur adipisicing.?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae ad rem aliquam? Consectetur cum esse a delectus iusto ipsam!",
-    },
-    {
-      question: "Lorem ipsum dolor sit amet consectetur adipisicing.?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae ad rem aliquam? Consectetur cum esse a delectus iusto ipsam!",
+        "The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members"
     },
   ],
 };
